@@ -1,0 +1,105 @@
+==================== STARTING CONFIG: Llama(Worker) + Qwen(Critic) ====================
+
+--- Task 1/10: HumanEval/51 ---
+Baseline (llama3.1:8b): PASS
+Iter 1: Critic (qwen2.5-coder:7b) approved.
+Tests passed. Stopping.
+Final Result: PASS
+
+--- Task 2/10: HumanEval/63 ---
+0
+Baseline (llama3.1:8b): FAIL
+Iter 1: Critic (qwen2.5-coder:7b) approved.
+0
+Critic was wrong! Tests failed. Forcing refinement...
+0
+Iter 1: Still failing.
+0
+4
+24
+Iter 2: Fixed! Tests passed.
+0
+4
+24
+Final Result: PASS
+
+--- Task 3/10: HumanEval/72 ---
+Baseline (llama3.1:8b): PASS
+Iter 1: Critic (qwen2.5-coder:7b) approved.
+Tests passed. Stopping.
+Final Result: PASS
+
+--- Task 4/10: HumanEval/85 ---
+Baseline (llama3.1:8b): FAIL
+Iter 1: Critic (qwen2.5-coder:7b) approved.
+Critic was wrong! Tests failed. Forcing refinement...
+Iter 1: Still failing.
+Iter 2: Code unchanged. Stopping.
+Final Result: FAIL
+
+--- Task 5/10: HumanEval/99 ---
+Baseline (llama3.1:8b): FAIL
+Iter 1: Critic (qwen2.5-coder:7b) approved.
+Critic was wrong! Tests failed. Forcing refinement...
+Iter 1: Still failing.
+Iter 2: Still failing.
+Final Result: FAIL
+
+--- Task 6/10: HumanEval/105 ---
+Baseline (llama3.1:8b): PASS
+Iter 1: Critic (qwen2.5-coder:7b) approved.
+Tests passed. Stopping.
+Final Result: PASS
+
+--- Task 7/10: HumanEval/112 ---
+Baseline (llama3.1:8b): PASS
+Iter 1: Critic (qwen2.5-coder:7b) approved.
+Tests passed. Stopping.
+Final Result: PASS
+
+--- Task 8/10: HumanEval/124 ---
+Baseline (llama3.1:8b): FAIL
+Iter 1: Critic (qwen2.5-coder:7b) approved.
+Critic was wrong! Tests failed. Forcing refinement...
+Iter 1: Still failing.
+Iter 2: Critic (qwen2.5-coder:7b) approved.
+Critic was wrong! Tests failed. Forcing refinement...
+Iter 2: Still failing.
+Final Result: FAIL
+
+--- Task 9/10: HumanEval/138 ---
+True
+False
+True
+Baseline (llama3.1:8b): FAIL
+False
+False
+True
+Iter 1: Fixed! Tests passed.
+False
+False
+True
+Final Result: PASS
+
+--- Task 10/10: HumanEval/150 ---
+34
+5
+Baseline (llama3.1:8b): PASS
+Iter 1: Critic (qwen2.5-coder:7b) approved.
+34
+5
+Tests passed. Stopping.
+34
+5
+Final Result: PASS
+
+✅ Config Done!
+Baseline Pass@1: 5/10 (50.0%)
+Refined Pass@1:  7/10 (70.0%)
+
+
+==============================
+FINAL COMPARISON REPORT
+==============================
+
+Llama(Worker) + Qwen(Critic):
