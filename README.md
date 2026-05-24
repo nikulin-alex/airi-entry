@@ -87,9 +87,5 @@ This research was conducted with the assistance of an AI coding assistant (Qwen/
 ## 📬 Contact
 
 For questions about the methodology or results, please reach out:
-*   **Email:** [nikulinalexandr7824@gmail.com]
-*   **GitHub:** [@nikulin-alex]
-
-4.  **Воспроизводимость:** Есть четкая инструкция, как запустить код у себя.
-
-Удачи с подачей заявки! Это выглядит как серьезный инженерно-исследовательский проект.
+*   **Email:** nikulinalexandr7824@gmail.com
+*   **GitHub:** @nikulin-alex
