@@ -1,7 +1,6 @@
 # Cross-Model Refinement: Local LLM Evaluation 🧠🤖
 
 > **Research Proposal for AIRI Summer School 2026**
-> *Author: Alexandr Nikulin (1st year student, Ural Federal University)*
 
 ## 📌 Overview
 
